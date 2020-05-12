@@ -1,5 +1,6 @@
 package io.github.madhank93.selenium_maven_travisci;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -21,10 +22,10 @@ public class GoogleTest {
 
     @BeforeClass
     public void setupTest() {
-    	ChromeOptions options = new ChromeOptions();
-    	options.addArguments("--headless");
-        options.addArguments("--disable-gpu");
-        driver = new ChromeDriver(options);
+    	//ChromeOptions options = new ChromeOptions();
+    	//options.addArguments("--headless");
+        //options.addArguments("--disable-gpu");
+        driver = new ChromeDriver();
     }
 
     @AfterClass
@@ -36,9 +37,9 @@ public class GoogleTest {
 
     @Test
     public void test() {
-        // Your test code here
-    	driver.get("https://www.google.co.in/");
-    	System.out.println("launched successfully");
+    	driver.get("https://time.is/");
+    	String currentDate = driver.findElement(By.xpath("//div[@id='dd']")).getText();
+    	System.out.println("Date: " + currentDate);
     }
 
 }
