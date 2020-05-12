@@ -22,10 +22,10 @@ public class GoogleTest {
 
     @BeforeClass
     public void setupTest() {
-    	//ChromeOptions options = new ChromeOptions();
-    	//options.addArguments("--headless");
-        //options.addArguments("--disable-gpu");
-        driver = new ChromeDriver();
+    	ChromeOptions options = new ChromeOptions();
+    	options.addArguments("--headless");
+        options.addArguments("--disable-gpu");
+        driver = new ChromeDriver(options);
     }
 
     @AfterClass
