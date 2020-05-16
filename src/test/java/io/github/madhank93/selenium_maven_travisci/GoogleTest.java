@@ -24,7 +24,6 @@ public class GoogleTest {
     public void setupTest() {
     	ChromeOptions options = new ChromeOptions();
     	options.addArguments("--headless");
-        options.addArguments("--disable-gpu");
         driver = new ChromeDriver(options);
     }
 
