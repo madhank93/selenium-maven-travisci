@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30978" started-at="2020-05-16T16:43:49 IST" finished-at="2020-05-16T16:44:20 IST">
+  <suite name="Default suite" duration-ms="14169" started-at="2020-05-16T17:50:15 IST" finished-at="2020-05-16T17:50:29 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30978" started-at="2020-05-16T16:43:49 IST" finished-at="2020-05-16T16:44:20 IST">
-      <class name="io.github.madhank93.selenium_maven_travisci.GoogleTest">
-        <test-method status="PASS" signature="setupClass()[pri:0, instance:io.github.madhank93.selenium_maven_travisci.GoogleTest@64729b1e]" name="setupClass" is-config="true" duration-ms="2890" started-at="2020-05-16T16:43:49 IST" finished-at="2020-05-16T16:43:52 IST">
+    <test name="Default test" duration-ms="14169" started-at="2020-05-16T17:50:15 IST" finished-at="2020-05-16T17:50:29 IST">
+      <class name="io.github.madhank93.selenium_maven_travisci.SimpleTest">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:io.github.madhank93.selenium_maven_travisci.SimpleTest@48503868]" name="setupClass" is-config="true" duration-ms="428" started-at="2020-05-16T17:50:15 IST" finished-at="2020-05-16T17:50:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:io.github.madhank93.selenium_maven_travisci.GoogleTest@64729b1e]" name="setupTest" is-config="true" duration-ms="11058" started-at="2020-05-16T16:43:52 IST" finished-at="2020-05-16T16:44:03 IST">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:io.github.madhank93.selenium_maven_travisci.SimpleTest@48503868]" name="setupTest" is-config="true" duration-ms="2582" started-at="2020-05-16T17:50:15 IST" finished-at="2020-05-16T17:50:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:io.github.madhank93.selenium_maven_travisci.GoogleTest@64729b1e]" name="test" duration-ms="16413" started-at="2020-05-16T16:44:03 IST" finished-at="2020-05-16T16:44:19 IST">
+        <test-method status="PASS" signature="test()[pri:1, instance:io.github.madhank93.selenium_maven_travisci.SimpleTest@48503868]" name="test" duration-ms="10281" started-at="2020-05-16T17:50:18 IST" finished-at="2020-05-16T17:50:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:io.github.madhank93.selenium_maven_travisci.GoogleTest@64729b1e]" name="teardown" is-config="true" duration-ms="580" started-at="2020-05-16T16:44:19 IST" finished-at="2020-05-16T16:44:20 IST">
+        <test-method status="PASS" signature="screenshot()[pri:2, instance:io.github.madhank93.selenium_maven_travisci.SimpleTest@48503868]" name="screenshot" duration-ms="269" started-at="2020-05-16T17:50:28 IST" finished-at="2020-05-16T17:50:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:io.github.madhank93.selenium_maven_travisci.SimpleTest@48503868]" name="teardown" is-config="true" duration-ms="564" started-at="2020-05-16T17:50:28 IST" finished-at="2020-05-16T17:50:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- io.github.madhank93.selenium_maven_travisci.GoogleTest -->
+      </class> <!-- io.github.madhank93.selenium_maven_travisci.SimpleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
