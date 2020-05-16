@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class GoogleTest {
+public class SimpleTest {
 	
 	
 	private WebDriver driver;
