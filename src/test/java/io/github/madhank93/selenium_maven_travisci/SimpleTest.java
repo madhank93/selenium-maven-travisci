@@ -48,6 +48,9 @@ public class SimpleTest {
     
     @Test (priority = 2)
     public void screenshot() {
+    	// This method is to demonstrate screenshot can be taken in headless mode
+    	// after CI build has been run, to store the artifacts(screenshots) requires AWS S3 account
+    	
     	try {
     		TakesScreenshot screenShot = (TakesScreenshot) driver;
     		FileHandler.copy(screenShot.getScreenshotAs(OutputType.FILE),
